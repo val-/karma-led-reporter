@@ -1,0 +1,17 @@
+{
+  "name": "karma-led-reporter",
+  "version": "0.0.1",
+  "description": "A Karma plugin. Report results by blinking arduino rgb led.",
+  "main": "index.js",
+  "keywords": [
+    "karma-plugin",
+    "karma-reporter",
+    "tdd",
+    "fun"
+  ],
+  "author": "Valentin Agafonov",
+  "license": "MIT",
+  "dependencies": {
+    "serialport": "^2.0.6"
+  }
+}
