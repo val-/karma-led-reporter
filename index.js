@@ -5,7 +5,7 @@ function LedReporter(helper, logger, config) {
 
     var DEFAULT_CONFIG = {
         serialport: '/dev/ttyUSB0',
-        baudrate: '9600',
+        baudrate: 9600,
         error: '#F00',
         success: '#0F0',
         loading: '#A30'
