@@ -1,5 +1,5 @@
 
-var SerialPort = require("serialport").SerialPort;
+var SerialPort = require("serialport");
 
 function LedReporter(helper, logger, config) {
 
