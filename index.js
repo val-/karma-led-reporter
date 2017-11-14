@@ -5,7 +5,7 @@ function LedReporter(helper, logger, config) {
 
     var DEFAULT_CONFIG = {
         serialport: '/dev/ttyUSB0',
-        baudrate: 9600,
+        baudRate: 9600,
         error: '#F00',
         success: '#0F0',
         loading: '#A30'
@@ -14,7 +14,7 @@ function LedReporter(helper, logger, config) {
     var config = helper.merge(DEFAULT_CONFIG, config);
     var log = logger.create('reporter.led');
     var serialPort = new SerialPort(config.serialport, {
-        baudrate: config.baudrate
+        baudRate: config.baudRate
     });
 
     serialPort.on('open', function () {
