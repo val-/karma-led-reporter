@@ -12,6 +12,6 @@
   "author": "Valentin Agafonov",
   "license": "MIT",
   "dependencies": {
-    "serialport": "^2.0.6"
+    "serialport": "2.0.6"
   }
 }
